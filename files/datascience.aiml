@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- Data Scientist Path -->
+    <category>
+        <pattern>DATA</pattern>
+        <template>
+            <get name="name"/>, a career as a Data Scientist could be a good fit for you. Data Scientists analyze and interpret complex data to help inform business decisions. Would you like to know more about this field?
+            <button>
+            <text>Yes</text>
+            <postback>DATA SCIENTIST</postback>
+            </button>
+            <button>
+            <text>No</text>
+            <postback>RETURN</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+    <pattern>DATA SCIENTIST</pattern>
+    <template>
+        <get name="name"/>, here is a link for general information on Data Scientists.
+        <button><text>General Information</text><url>https://www.coursera.org/articles/how-to-become-a-data-scientist</url></button>
+        <button><text>Return</text><postback>RETURN</postback></button>
+    </template>
+    </category>
+</aiml>

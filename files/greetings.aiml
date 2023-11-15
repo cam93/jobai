@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<!-- Introduction -->
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            Hello! I'm here to help you with career advice in computer science. First, may I know your name?
+        </template>
+    </category>
+    
+    <category>
+        <pattern>MY NAME IS *</pattern>
+        <template>
+            Nice to meet you, <set name="name"><star/></set>. Can you tell me about your strengths or interests? For example, are you interested in problem-solving, data analysis, creative design, technology innovation, or business strategy?
+            <button><text>Problem-Solving</text><postback>PROBLEMSOLVING</postback></button>
+            <button><text>Data Analysis</text><postback>DATAANALYSIS</postback></button>
+            <button><text>Creative Design</text><postback>CREATIVEDESIGN</postback></button>
+            <button><text>Technology Innovation</text><postback>TECHINNOVATION</postback></button>
+            <button><text>Business Strategy</text><postback>BUSINESSSTRATEGY</postback></button>
+        </template>
+    </category>
+
+</aiml>
+
+

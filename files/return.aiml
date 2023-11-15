@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- If user selects No or Return -->
+    <category>
+        <pattern>RETURN</pattern>
+        <template>
+            Okay. Lets try again. Can you tell me about your strengths or interests? For example, are you interested in problem-solving, data analysis, creative design, technology innovation, or business strategy?
+            <button><text>Problem-Solving</text><postback>PROBLEMSOLVING</postback></button>
+            <button><text>Data Analysis</text><postback>DATAANALYSIS</postback></button>
+            <button><text>Creative Design</text><postback>CREATIVEDESIGN</postback></button>
+            <button><text>Technology Innovation</text><postback>TECHINNOVATION</postback></button>
+            <button><text>Business Strategy</text><postback>BUSINESSSTRATEGY</postback></button>
+        </template>
+    <!--    <template>-->
+    <!--        Okay, <get name="name"><star/></get>. Which area are you interested in?-->
+    <!--        <button>-->
+    <!--        <text>Software Development</text>-->
+    <!--        <postback>SOFTWARE</postback>-->
+    <!--        </button>-->
+    <!--        <button>-->
+    <!--        <text>Data Science</text>-->
+    <!--        <postback>DATA</postback>-->
+    <!--        </button>-->
+    <!--        <button>-->
+    <!--        <text>Cybersecurity</text>-->
+    <!--        <postback>CYBERSECURITY</postback>-->
+    <!--        </button>-->
+    <!--        <button>-->
+    <!--        <text>AI/ML Engineering</text>-->
+    <!--        <postback>AI</postback>-->
+    <!--        </button>-->
+    <!--        <button>-->
+    <!--        <text>IT Consulting</text>-->
+    <!--        <postback>CONSULTING</postback>-->
+    <!--        </button>-->
+        
+    </category>
+</aiml>

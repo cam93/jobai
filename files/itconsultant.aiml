@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- IT Consultant Path -->
+    <category>
+        <pattern>CONSULTING</pattern>
+        <template>
+            <get name="name"/>, you may enjoy a career as an IT Consultant. This role involves advising businesses on how to use IT to meet their goals. Interested in learning more about this career?
+        <button>
+            <text>Yes</text>
+            <postback>IT</postback>
+            </button>
+            <button>
+            <text>No</text>
+            <postback>RETURN</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+    <pattern>IT</pattern>
+    <template>
+        <get name="name"/>, here is a link for general information on IT Consultant.
+        <button><text>General Information</text><url>https://www.hiscox.com/blog/how-to-become-it-consultant</url></button>
+        <button><text>Return</text><postback>RETURN</postback></button>
+    </template>
+    </category>
+</aiml>

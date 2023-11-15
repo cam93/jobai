@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- Software Developer Path -->
+    <category>
+        <pattern>SOFTWARE</pattern>
+        <template>
+            <get name="name"/>, it sounds like you might enjoy a career as a Software Developer. This role involves designing, coding, and testing software. Would you like more information on this career?
+            <button>
+            <text>Yes</text>
+            <postback>DEVELOPER</postback>
+            </button>
+            <button>
+            <text>No</text>
+            <postback>RETURN</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+    <pattern>DEVELOPER</pattern>
+    <template>
+        <get name="name"/>, here is a link for general information on Software Developers.
+        <button><text>General Information</text><url>https://www.coursera.org/articles/how-to-become-a-software-developer</url></button>
+        <button><text>Return</text><postback>RETURN</postback></button>
+    </template>
+    </category>
+</aiml>

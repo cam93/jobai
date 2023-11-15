@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- Strengths and Interests Categories -->
+    <category>
+        <pattern>PROBLEMSOLVING</pattern>
+        <template>
+            Problem-solving is a key skill in many areas. You might excel in roles like Software Development or Cybersecurity. Which of these interests you more?
+            <button><text>Software Development</text><postback>SOFTWARE</postback></button>
+            <button><text>Cybersecurity</text><postback>CYBERSECURITY</postback></button>
+            <button><text>Return</text><postback>RETURN</postback></button>
+        </template>
+    </category>
+
+    <category>
+        <pattern>DATAANALYSIS</pattern>
+        <template>
+            With a strength in data analysis, you could be well-suited for a career in Data Science or AI/ML Engineering. Which sounds more appealing?
+            <button><text>Data Science</text><postback>DATA</postback></button>
+            <button><text>AI/ML Engineering</text><postback>AI</postback></button>
+            <button><text>Return</text><postback>RETURN</postback></button>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CREATIVEDESIGN</pattern>
+        <template>
+            Creative design is important in fields like Software Development and AI/ML Engineering. Which area would you like to explore?
+            <button><text>Software Development</text><postback>SOFTWARE</postback></button>
+            <button><text>AI/ML Engineering</text><postback>AI</postback></button>
+            <button><text>Return</text><postback>RETURN</postback></button>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TECHINNOVATION</pattern>
+        <template>
+            If you're interested in technology innovation, consider exploring AI/ML Engineering or IT Consulting. Which one interests you?
+            <button><text>AI/ML Engineering</text><postback>AI</postback></button>
+            <button><text>IT Consulting</text><postback>CONSULTING</postback></button>
+            <button><text>Return</text><postback>RETURN</postback></button>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BUSINESSSTRATEGY</pattern>
+        <template>
+            Business strategy skills are valuable in IT Consulting. Would you like to learn more about this field?
+            <button><text>Yes</text><postback>CONSULTING</postback></button>
+            <button><text>Return</text><postback>RETURN</postback></button>
+        </template>
+    </category>
+</aiml>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!-- Default Response -->
+    <category>
+        <pattern>*</pattern>
+        <template>
+            I'm not sure how to respond to that <get name="name"/>. Can you ask about career advice in computer science?
+        </template>
+    </category>
+</aiml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- AI/ML Engineer Path -->
+    <category>
+        <pattern>AI</pattern>
+        <template>
+            <get name="name"/>, considering your interest, becoming an AI/ML Engineer could be a great path. This role focuses on developing intelligent systems and algorithms. Would you like to explore this career further?
+        <button>
+            <text>Yes</text>
+            <postback>AI/ML</postback>
+            </button>
+            <button>
+            <text>No</text>
+            <postback>RETURN</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+    <pattern>AI/ML</pattern>
+    <template>
+        <get name="name"/>, here is a link for general information on AI/ML Engineers.
+        <button><text>AI</text><url>https://www.coursera.org/articles/ai-engineer</url></button>
+        <button><text>ML</text><url>https://www.coursera.org/articles/what-is-machine-learning-engineer</url></button>
+        <button><text>Return</text><postback>RETURN</postback></button>
+    </template>
+    </category>
+</aiml>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- Cybersecurity Analyst Path -->
+    <category>
+        <pattern>CYBERSECURITY</pattern>
+        <template>
+            <get name="name"/>, you might find a career as a Cybersecurity Analyst rewarding. This role involves protecting information systems from cyber threats. Would you like more details on this career path?
+        <button>
+            <text>Yes</text>
+            <postback>SECURITY</postback>
+            </button>
+            <button>
+            <text>No</text>
+            <postback>RETURN</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+    <pattern>SECURITY</pattern>
+    <template>
+        <get name="name"/>, here is a link for general information on Cybersecurity.
+        <button><text>General Information</text><url>https://www.coursera.org/articles/how-to-get-into-cybersecurity</url></button>
+        <button><text>Return</text><postback>RETURN</postback></button>
+    </template>
+    </category>
+</aiml>
