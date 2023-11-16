@@ -5,7 +5,7 @@
     <category>
         <pattern>HELLO</pattern>
         <template>
-            Hello! I'm here to help you with career advice in computer science. First, may I know your name?
+            Hello! I'm here to help you with career advice in computer science. First, may I know your name?(Enter as: "My name is *name*")
         </template>
     </category>
     

@@ -7,7 +7,7 @@
             <get name="name"/>, considering your interest, becoming an AI/ML Engineer could be a great path. This role focuses on developing intelligent systems and algorithms. Would you like to explore this career further?
         <button>
             <text>Yes</text>
-            <postback>AI/ML</postback>
+            <postback>AIML</postback>
             </button>
             <button>
             <text>No</text>
@@ -17,7 +17,7 @@
     </category>
     
     <category>
-    <pattern>AI/ML</pattern>
+    <pattern>AIML</pattern>
     <template>
         <get name="name"/>, here is a link for general information on AI/ML Engineers.
         <button><text>AI</text><url>https://www.coursera.org/articles/ai-engineer</url></button>
